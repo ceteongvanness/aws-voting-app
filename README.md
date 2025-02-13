@@ -35,3 +35,6 @@ This app is hosted on AWS using the following services:
 3. Custom Domain (Optional):
 * Use Route 53 to register a custom domain.
 * Use CloudFront to enable HTTPS and improve performance.
+
+### Acknowledgments
+This project uses source code originally from [Azure-Voting-App](https://github.com/ceteongvanness/azure-voting-app)
