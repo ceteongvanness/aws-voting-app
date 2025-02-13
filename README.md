@@ -41,10 +41,15 @@ This app is hosted on AWS using the following services:
 - Python 3.x
 - `pip` for dependency management
 
-
+#### Installation
+1. Clone this repository
+```
+git clone https://github.com/ceteongvanness/aws-voting-app.git
+cd aws-voting-app
+```
 
 ### Configuration
-Edit config_file.cfg to customize app settings.
+Edit `config_file.cfg` to customize app settings.
 
 ### Contributing
 Contributions are welcome! Please follow these steps:
@@ -55,7 +60,7 @@ Contributions are welcome! Please follow these steps:
 5. Open a pull request
 
 ### License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE(https://github.com/ceteongvanness/aws-voting-app/blob/main/LICENSE) file for details.
 
 ### Acknowledgments
 This project uses source code originally from [Azure-Voting-App](https://github.com/ceteongvanness/azure-voting-app)
