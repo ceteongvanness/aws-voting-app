@@ -14,9 +14,9 @@ Host a static web app with Python backend using AWS S3 for frontend and Lambda f
 ```
 
 ### Features
-* **Frontend**: A responsive static web page (index.html) styled with default.css.
-* **Backend**: Python-based server-side logic (main.py) for handling API requests.
-* **Configuration**: Customizable settings in config_file.cfg.
+- **Frontend**: A responsive static web page (index.html) styled with default.css.
+- **Backend**: Python-based server-side logic (main.py) for handling API requests.
+- **Configuration**: Customizable settings in config_file.cfg.
 
 ### Hosting on AWS
 This app is hosted on AWS using the following services:
@@ -26,15 +26,15 @@ This app is hosted on AWS using the following services:
 
 ### Steps to Deploy
 1. **Static Files**:
-* Upload index.html and static/ to an S3 bucket.
-* Enable static website hosting in the S3 bucket settings.
+- Upload index.html and static/ to an S3 bucket.
+- Enable static website hosting in the S3 bucket settings.
 2. **Backend**:
-* Package main.py and its dependencies into a deployment package.
-* Create a Lambda function and upload the deployment package.
-* Set up API Gateway to trigger the Lambda function.
+- Package main.py and its dependencies into a deployment package.
+- Create a Lambda function and upload the deployment package.
+- Set up API Gateway to trigger the Lambda function.
 3. **Custom Domain (Optional)**:
-* Use Route 53 to register a custom domain.
-* Use CloudFront to enable HTTPS and improve performance.
+- Use Route 53 to register a custom domain.
+- Use CloudFront to enable HTTPS and improve performance.
 
 ### Configuration
 Edit config_file.cfg to customize app settings.
