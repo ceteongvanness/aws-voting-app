@@ -48,6 +48,18 @@ git clone https://github.com/ceteongvanness/aws-voting-app.git
 cd aws-voting-app
 ```
 
+2. Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+#### Running the App Locally
+1. Start the Python backend:
+```
+python main.py
+```
+2. Open `templates/index.html` in your browser to view the frontend.
+
 ### Configuration
 Edit `config_file.cfg` to customize app settings.
 
